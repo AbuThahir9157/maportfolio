@@ -1760,7 +1760,7 @@ body.dark-theme{
   }
   }
 
-/*tarjeta2*/
+/* tarjeta2*/ 
 .flex1{
   display: flex;
   flex-wrap: wrap;
@@ -1814,7 +1814,7 @@ body.dark-theme{
   }
 
 /*Project Page*/
-.container1{
+/* .container1{
   position: relative;
   z-index: -99;
   max-height: 450px;
@@ -1866,7 +1866,7 @@ body.dark-theme{
 }
 
 /*media query*/
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .video{
     padding-bottom: 580px;
   }
@@ -1950,11 +1950,11 @@ body.dark-theme{
   border: none !important;
   padding-top: 0;
   padding-bottom: 0;
-}
+} */ */
 
 
 /*=== CLOCK ===*/
-.clock {
+/* .clock {
   font-size: 30px;
   letter-spacing: 4px;
   font-weight: 400;
@@ -1973,18 +1973,18 @@ body.dark-theme{
 }
 
 /*=== CHANGE LANGUAJE ===*/
-.lang {
+/* .lang {
   color: var(--second-color);
   transition: all 0.3s ease 0s;
 }
 
 .lang:hover{
   color: var(--first-color);
-}
+} */ 
 
 
 /*=== WORK IMAGES ===*/
-.snip1321 {
+/* .snip1321 {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -2058,10 +2058,10 @@ body.dark-theme{
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
   opacity: 1;
-}
+} */
 
 /*=== WORK IMAGES 2 ===*/
-.snip1321-2 {
+/* .snip1321-2 {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -2135,11 +2135,11 @@ body.dark-theme{
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
   opacity: 1;
-}
+} */
 
 /*=== PROYECT IMGS ===*/
 
-.verproyecto {
+/* .verproyecto {
   display: none;
   margin-top: 25px !important;
   width: 100%;
@@ -2257,13 +2257,13 @@ body.dark-theme{
     width: auto;
     height: 100%;
   }
-}
+} */
 
 
 /*===========================================================*/
 /*PROYECT 2*/
 
-.project-container-2 {
+/* .project-container-2 {
   max-width: 1000px;
   margin: 50px auto;
 }
@@ -2378,11 +2378,11 @@ body.dark-theme{
     width: auto;
     height: 100%;
   }
-}
+} */
 
 
 /*=== TODOS LOS PROYECTOS TABLA ===*/
-.tabla {
+/* .tabla {
   text-align: center;
   margin: auto;
   width: 100%;
@@ -2423,9 +2423,9 @@ thead, tbody {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-}
+} */
 
-.year {
+/* .year {
   color: var(--first-color);
   font-weight: 600;
 }
@@ -2440,10 +2440,10 @@ thead, tbody {
 
 thead th {
   color: var(--table-color);
-}
+} */
 
 
-.e1 {
+/* .e1 {
 background-color: rgba(252, 170, 94, 0.89);
 color: #000;
 border-radius: 50px;
@@ -2594,7 +2594,7 @@ padding: 5px 10px;
 .blanco {
   color: var(--nav-color) !important;
   transition: all .3s ease;
-}
+} */
 .swipermySwiper{
   position: relative;
 }
@@ -2633,6 +2633,9 @@ swiper-slide img {
     background-size: cover;
     width: 200px;
     height: 300px;
+
+
+    
   }
 
 }
