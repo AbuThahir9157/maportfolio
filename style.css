@@ -2600,7 +2600,7 @@ padding: 5px 10px;
 }
 swiper-container {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 50px;
 }
 
@@ -2627,6 +2627,12 @@ swiper-slide img {
     color: #c83232ad;
     margin: 0 var(--mb-2);
     transition: all .3s ease;
+  }
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 300px;
   }
 
 }
