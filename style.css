@@ -34,7 +34,7 @@
 
 
 /* ===== VARIABLES DARK MODE =====*/
-body.dark-theme{
+body{
   --first-color: #ff6c6c;
   --second-color: #ffffff;
   --third-color: rgb(255, 255, 255);
@@ -1691,11 +1691,11 @@ body::-webkit-scrollbar-thumb:active{
     color:ff0000;
   }
 }
-body.dark-theme{
+body{
   --wave1-color: #8b0000;
   --wave2-color: #ff0000;
   --wave3-color: #ff6666;
-  --wave4-color: #ffcccc;
+  --wave4-color: #333333;
 }
 
 /* Tarjeta Social Contact*/
