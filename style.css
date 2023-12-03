@@ -13,7 +13,7 @@
 
 
 /* ===== COLORS ===== */
-/* :root{
+:root{
   --first-color: #ca708b;
   --second-color: #363636;
   --third-color: rgb(0, 0, 0);
@@ -30,7 +30,7 @@
   --wave4-color: #efefef;
   --cursor-color:#e3a1af ;
   --table-color: #686868 ;
-} */
+}
 
 
 /* ===== VARIABLES DARK MODE =====*/
