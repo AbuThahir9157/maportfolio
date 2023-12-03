@@ -267,13 +267,13 @@ const selectedIcon = localStorage.getItem('selected-icon')
 const selectedImg = localStorage.getItem('selected-img')
 
 // We obtain the current theme that the interface has by validating the dark-theme class
-const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
+// const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
 
-const getCurrentImg = () => themeImage.classList.contains(imgTheme) ? 'dark-img' : 'light-img'
+// const getCurrentImg = () => themeImage.classList.contains(imgTheme) ? 'dark-img' : 'light-img'
 
-const getCurrentImg1 = () => themeImage1.classList.contains(imgTheme) ? 'dark-img' : 'light-img'
+// const getCurrentImg1 = () => themeImage1.classList.contains(imgTheme) ? 'dark-img' : 'light-img'
 
-const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'bxs-moon' : 'bxs-sun'
+// const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'bxs-moon' : 'bxs-sun'
 
 // We validate if the user previously chose a topic
 if (selectedTheme) {
