@@ -63,54 +63,54 @@ if (usrAg.indexOf("Chrome") > -1 || usrAg.indexOf("Safari") > -1) {
   browserPrefix = "-ms-";
 }
 
-//TweenLite.defaultEase = Power3.easeInOut;
+// //TweenLite.defaultEase = Power3.easeInOut;
 
-var $cursor = jQuery("#js-cursor");
-var $cursor__big = jQuery("#js-cursor__big");
-var $cursor__big2 = jQuery("#js-cursor__big2");
-var $cursor__small = jQuery("#js-cursor__small");
-var $links = jQuery(".curserhover, .call-to-action");
-var $links2 = jQuery(".curserhover2, .call-to-action2");
+// var $cursor = jQuery("#js-cursor");
+// var $cursor__big = jQuery("#js-cursor__big");
+// var $cursor__big2 = jQuery("#js-cursor__big2");
+// var $cursor__small = jQuery("#js-cursor__small");
+// var $links = jQuery(".curserhover, .call-to-action");
+// var $links2 = jQuery(".curserhover2, .call-to-action2");
 
 
-jQuery(window).on("mousemove", function (e) {
-  $cursor.css(
-    browserPrefix + "transform",
-    "translate(" + e.pageX + "px, " + e.pageY + "px)",
-  );
-});
+// jQuery(window).on("mousemove", function (e) {
+//   $cursor.css(
+//     browserPrefix + "transform",
+//     "translate(" + e.pageX + "px, " + e.pageY + "px)",
+//   );
+// });
 
-$links.on("mouseenter", function (e) {
-  $cursor__big.css(browserPrefix + "transform", "scale(1)");
-});
+// $links.on("mouseenter", function (e) {
+//   $cursor__big.css(browserPrefix + "transform", "scale(1)");
+// });
 
-$links.on("mouseleave", function (e) {
-  $cursor__big.css(browserPrefix + "transform", "scale(0)");
-});
+// $links.on("mouseleave", function (e) {
+//   $cursor__big.css(browserPrefix + "transform", "scale(0)");
+// });
 
-$links.on("mouseenter", function (e) {
-  $cursor__small.css(browserPrefix + "transform", "scale(0)");
-});
+// $links.on("mouseenter", function (e) {
+//   $cursor__small.css(browserPrefix + "transform", "scale(0)");
+// });
 
-$links.on("mouseleave", function (e) {
-  $cursor__small.css(browserPrefix + "transform", "scale(1)");
-});
+// $links.on("mouseleave", function (e) {
+//   $cursor__small.css(browserPrefix + "transform", "scale(1)");
+// });
 
-$links2.on("mouseenter", function (e) {
-  $cursor__big2.css(browserPrefix + "transform", "scale(1)");
-});
+// $links2.on("mouseenter", function (e) {
+//   $cursor__big2.css(browserPrefix + "transform", "scale(1)");
+// });
 
-$links2.on("mouseleave", function (e) {
-  $cursor__big2.css(browserPrefix + "transform", "scale(0)");
-});
+// $links2.on("mouseleave", function (e) {
+//   $cursor__big2.css(browserPrefix + "transform", "scale(0)");
+// });
 
-$links2.on("mouseenter", function (e) {
-  $cursor__small.css(browserPrefix + "transform", "scale(0)");
-});
+// $links2.on("mouseenter", function (e) {
+//   $cursor__small.css(browserPrefix + "transform", "scale(0)");
+// });
 
-$links2.on("mouseleave", function (e) {
-  $cursor__small.css(browserPrefix + "transform", "scale(1)");
-});
+// $links2.on("mouseleave", function (e) {
+//   $cursor__small.css(browserPrefix + "transform", "scale(1)");
+// });
 
 
 /* ===== MENU SHOW ===== */
@@ -349,34 +349,6 @@ tabs.forEach(tab =>{
     })
 })
 
-/* ========== SKILLS SLIDER ==========*/
-$(document).ready(function() {
-  $('.customer-logos').slick({
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1000,
-    arrows: false,
-    dots: false,
-    draggable: false,
-    touchMove: false,
-    swipeToSlide: false,
-    swipe: false,
-    pauseOnHover: false,
-    pauseOnFocus:false,
-    responsive: [{
-      breakpoint: 880,
-      settings: {
-        slidesToShow: 3
-      }
-    }, {
-      breakpoint: 550,
-      settings: {
-        slidesToShow: 2
-      }
-    }]
-  });
-});
 
 
 /* ========== AUTOHIDE NAV ON SCROLL ==========*/
@@ -597,23 +569,5 @@ showTime();
 }
 
 
-/* ==================== DYNAMIC COPYRIGHT YEAR ==================== */
-function copyright() {
-  copyrightYear = new Date().getFullYear();
-  copyFinal = "© "  + copyrightYear + " Made by Gokul Ramachandran";
-  document.getElementById("copy").innerText = copyFinal;
-};
-copyright();
 
-
-/* ==================== TIPYNG TITLE ANIMATION ==================== */
-window.ityped.init(document.querySelector('.ityped'),{
-  strings: ['FULL STACK WEB DEVELOPER','MERN STACK', "LET'S BUILD SCALABLE WEB APPS"],
-  loop: true,
-  typeSpeed:  150,
-  backDelay: 3000,
-})
-
-
-/* ==================== CHANGE LANGUAGE ES/EN ==================== */
 
